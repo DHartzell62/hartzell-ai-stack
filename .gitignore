@@ -1,0 +1,76 @@
+# ─────────────────────────────────────────────────────────────
+# HARD BLOCK — never commit these (credentials, PII, customer data)
+# ─────────────────────────────────────────────────────────────
+*.env
+.env*
+*credentials*
+*secret*
+*password*
+*api_key*
+*api-key*
+*token*
+email_config.py
+hcp_config.py
+twilio_config.py
+*.pem
+*.key
+*.p12
+*.pfx
+config.json
+auth.json
+service-account*.json
+
+# Customer data, employee comp, financials
+*customer*.csv
+*customer*.json
+*customer*.xlsx
+*employee*pay*
+*payroll*
+*insperity*
+*tax_packet*
+*cpa*
+*1120*
+hartzell_db.sqlite
+*.db
+*.sqlite
+*.sqlite3
+
+# HCP / QBO / GBP exports
+*hcp_export*
+*qbo_export*
+*gbp_export*
+hcp_*.json
+qbo_*.json
+
+# Personal / household
+OneDrive/
+employees/
+.claude/projects/
+memory/
+
+# ─────────────────────────────────────────────────────────────
+# Standard ignores
+# ─────────────────────────────────────────────────────────────
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+*.log
+.DS_Store
+Thumbs.db
+node_modules/
+.venv/
+venv/
+env/
+dist/
+build/
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+
+# Editor / IDE
+.idea/
+.vscode/
+*.swp
+*.swo
