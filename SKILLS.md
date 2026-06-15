@@ -29,7 +29,7 @@ What I added that isn't in any upstream repo:
 - **KPI dashboard** — investor-grade revenue/AR/pipeline board for a 5-person shop
 - **Podcast production** — 3 shows (The Human Diagnostic, Cool Talk, Figured Something Out) end-to-end automated
 
-→ Sanitized versions of these will land in [`hvac/`](./hvac/) as the repo grows.
+→ Sanitized versions of these will land in `hvac/` (as the repo grows) as the repo grows.
 
 ## YouTube / blog mentors
 
